@@ -1,0 +1,112 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header label {
+    margin-right: 10px;
+  }
+  
+  .header select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .kanban-board {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .kanban-columns {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .kanban-column {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .kanban-column h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  
+  
+  .column {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .card-header,
+  .card-body,
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .card-text {
+    margin: 5px 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-icon .icon {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .card-label {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
